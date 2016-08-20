@@ -1,0 +1,40 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Aug 19 18:29:42 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "A10" LEVEL 1;
+COMP "read_addr1<0>" LOCATE = SITE "E9" LEVEL 1;
+COMP "read_addr1<1>" LOCATE = SITE "A9" LEVEL 1;
+COMP "read_addr2<0>" LOCATE = SITE "D9" LEVEL 1;
+COMP "read_addr2<1>" LOCATE = SITE "E8" LEVEL 1;
+COMP "we" LOCATE = SITE "E11" LEVEL 1;
+COMP "read_data1<0>" LOCATE = SITE "D6" LEVEL 1;
+COMP "write_addr<0>" LOCATE = SITE "E10" LEVEL 1;
+COMP "read_data1<1>" LOCATE = SITE "A5" LEVEL 1;
+COMP "write_addr<1>" LOCATE = SITE "D10" LEVEL 1;
+COMP "read_data1<2>" LOCATE = SITE "A4" LEVEL 1;
+COMP "read_data1<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "read_data2<0>" LOCATE = SITE "L5" LEVEL 1;
+COMP "read_data1<4>" LOCATE = SITE "C5" LEVEL 1;
+COMP "read_data2<1>" LOCATE = SITE "P1" LEVEL 1;
+COMP "read_data1<5>" LOCATE = SITE "C4" LEVEL 1;
+COMP "read_data2<2>" LOCATE = SITE "P2" LEVEL 1;
+COMP "read_data1<6>" LOCATE = SITE "C3" LEVEL 1;
+COMP "read_data2<3>" LOCATE = SITE "M1" LEVEL 1;
+COMP "read_data1<7>" LOCATE = SITE "B1" LEVEL 1;
+COMP "write_data<0>" LOCATE = SITE "C8" LEVEL 1;
+COMP "read_data2<4>" LOCATE = SITE "R1" LEVEL 1;
+COMP "write_data<1>" LOCATE = SITE "D8" LEVEL 1;
+COMP "read_data2<5>" LOCATE = SITE "R2" LEVEL 1;
+COMP "write_data<2>" LOCATE = SITE "F9" LEVEL 1;
+COMP "read_data2<6>" LOCATE = SITE "N5" LEVEL 1;
+COMP "write_data<3>" LOCATE = SITE "A7" LEVEL 1;
+COMP "read_data2<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "write_data<4>" LOCATE = SITE "D7" LEVEL 1;
+COMP "write_data<5>" LOCATE = SITE "E7" LEVEL 1;
+COMP "write_data<6>" LOCATE = SITE "F8" LEVEL 1;
+COMP "write_data<7>" LOCATE = SITE "C6" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
